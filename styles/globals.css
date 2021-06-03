@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@keyframes animate-cover-photo {
+  0% {
+    transform: scale(2);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.cover-photo {
+  animation: animate-cover-photo 1s ease-in-out backwards;
+}
+
+@keyframes animate-main-content {
+  0% {
+    margin-top: 80px;
+    animation-timing-function: ease-out;
+  }
+  100% {
+    margin-top: -0.25rem;
+  }
+}
+
+.main-content {
+  animation: animate-main-content 0.75s ease-out backwards;
+}
+
+@keyframes animate-social-icons {
+  0% {
+    transform: scale(0);
+  }
+  95% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.social-icons {
+  animation: animate-social-icons 0.3s 0.7s backwards;
+}
+
