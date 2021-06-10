@@ -32,7 +32,7 @@ a {
 }
 
 .cover-photo {
-  animation: animate-cover-photo 1s ease-in-out backwards;
+  animation: animate-cover-photo 1.3s ease-in-out backwards;
 }
 
 @keyframes animate-main-content {
@@ -46,7 +46,7 @@ a {
 }
 
 .main-content {
-  animation: animate-main-content 0.75s ease-out backwards;
+  animation: animate-main-content 1s ease-out backwards;
 }
 
 @keyframes animate-social-icons {
@@ -62,6 +62,6 @@ a {
 }
 
 .social-icons {
-  animation: animate-social-icons 0.3s 0.7s backwards;
+  animation: animate-social-icons 0.6s 1s backwards;
 }
 

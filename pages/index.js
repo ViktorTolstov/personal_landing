@@ -10,16 +10,16 @@ export default function Home() {
       </Head>
 
       <main className="w-screen h-screen font-roboto overflow-hidden">
-        <div className="w-screen h-2/5 bg-coverimage md:bg-coverimagepc bg-cover bg-no-repeat -mb-56 md:mx-auto filter cover-photo bg-secondary">
+        <div className="w-screen h-2/5 bg-coverimage md:bg-coverimagepc bg-cover bg-no-repeat -mb-56 md:mx-auto filter cover-photo bg-white">
 
         </div>
         <div className="h-4/5 w-mobile -mt-1 main-content">
-          <div className="w-32 h-32 bg-secondary -mb-16 rounded-full m-auto z-50 relative pt-2" >
-            <div className="w-28 h-28 bg-main bg-contain rounded-full m-auto bg-no-repeat social-icons border-4 border-white">
+          <div className="w-32 h-32 bg-white -mb-16 rounded-full m-auto z-50 relative pt-2" >
+            <div className="w-28 h-28 bg-main bg-contain rounded-full m-auto bg-no-repeat social-icons border-4 border-black">
             
             </div>
           </div>
-          <div className="bg-secondary h-screen w-full md:rounded-none rounded-t-mobile -ml-mobile relative pt-32">
+          <div className="bg-white h-screen w-full md:rounded-none rounded-t-mobile -ml-mobile relative pt-32">
             <h1 className="text-center -mt-12 font-bold text-xl text-primary social-icons">Viktor Tolstov</h1>
             {/* &lt;/&gt; */}
             <h2 className="text-center text-sm text-primary social-icons" > CODE and BUSINESS</h2>
