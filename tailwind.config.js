@@ -18,8 +18,11 @@ module.exports = {
       'main': "url('/images/main.jpg')",
     }),
     extend: {
+      gridTemplateColumns: {
+        '5': 'repeat(5, minmax(0, 1fr))',
+      },
       borderRadius: {
-       'mobile': '50% 60px',
+        'mobile': '50% 60px',
       },
       height: {
         'mobile': '100vh',
